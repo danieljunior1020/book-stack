@@ -1,0 +1,67 @@
+.searchItem {
+    margin-bottom: 15px;
+}
+
+.searchHotel {
+    position: sticky;
+    background-color: chocolate;
+    height: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.searchItem,
+.searchOptItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchItem span {
+    color: azure;
+    letter-spacing: 1.3px;
+}
+
+.searchOptItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.searchItem input {
+    height: 35px;
+    padding: 0 20px;
+    color: darkslategrey;
+}
+
+.searchItem label:nth-child(2) {
+    height: 35px;
+    width: 100%;
+    background-color: blanchedalmond;
+    color: darkslategrey;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.searchItem .btnSearch {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: darkslategray;
+    color: blanchedalmond;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.4s;
+}
+
+.searchItem .btnSearch:hover {
+    background-color: rgb(62, 68, 74);
+}
+
+.searchItem:nth-child(2) {
+    position: relative;
+}
+
+

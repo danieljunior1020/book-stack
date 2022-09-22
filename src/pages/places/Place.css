@@ -1,0 +1,67 @@
+.placeContainer {
+    margin: 100px 25px;
+}
+
+
+.placeRow:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.placeTitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: brown;
+}
+
+.placeRow:first-child span {
+    color: rgb(55, 43, 34);
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    margin-bottom: 40px;
+}
+
+.placeBtn {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: darkslategray;
+    color: blanchedalmond;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.4s;
+}
+
+
+.placeBtn:hover {
+    background-color: rgb(74, 65, 65);
+}
+
+.placeRow:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+
+.placeRow:nth-child(3) {
+    margin-bottom: 50px;
+}
+
+.placeSub {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.placeDesc {
+    letter-spacing: 1.3px;
+}
+
+.react-photo-album--photo {
+    transition: all 1s;
+    border-radius: 5px;
+}
+
+.react-photo-album--photo:hover {
+    transform: scale(1.05);
+}

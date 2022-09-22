@@ -1,0 +1,29 @@
+.tImg {
+    position: relative;
+}
+
+
+
+
+.tImg a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.tTitle {
+    color: darkslategray;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px darkslategrey;
+}
+
+.tDescript {
+  position: absolute;
+  z-index: 2;
+}
+
+.tImg a img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}

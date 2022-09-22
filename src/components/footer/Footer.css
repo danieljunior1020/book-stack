@@ -1,0 +1,39 @@
+.footer {
+    margin-bottom: 100px;
+}
+
+
+.footRow:last-child {
+    padding: 5px 0;
+    border-top: 1px solid darkslategrey;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    font-weight: 800;
+}
+
+.footRow:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footRow:first-child ul {
+    list-style: none;
+}
+
+.footRow:first-child ul li {
+    margin-bottom: 10px;
+}
+
+.footRow:first-child ul li a {
+    color: darkslategrey;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+}
+
+.footRow:first-child ul li a:hover {
+    text-decoration: underline;
+}
